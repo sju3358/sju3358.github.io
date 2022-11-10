@@ -6,10 +6,11 @@ excerpt: ""
 aside: true
 ---
 
-# Who am I?
+# Who am I?  
 
 
 {::nomarkdown}
+<div>
 <style>
 /*Add custom cursor so it auto inherits font styles*/
 /*
@@ -56,8 +57,6 @@ aside: true
 }
 </style>
 
-
-<div>
     <h1 id="text_event">세계 최강의 개발자 <span id="text_hided" class="typed" style="color:#a50509"></span></h1>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js" type="text/javascript"></script>
@@ -65,7 +64,6 @@ aside: true
         let blink = document.getElementById("text_event");
         let string_sample = ["(가 되고싶은...)","(가 될꺼임!!)","(아무튼 된다!!!)","(나 조성락)","(한다면 하는남자)","(아무도 막을수 없다!)"];
         let i = 0;
-
         $(function() {
             blink.addEventListener("mouseenter", function(){
                 
@@ -92,12 +90,13 @@ aside: true
             });
         }); 
     </script>
-    
 </div>
   
   
 {:/}
+
 <br/>
+
 #### Contents  
 -------------
 Back-End  
