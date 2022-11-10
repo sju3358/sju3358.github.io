@@ -1,9 +1,9 @@
 ---
 title: About Me
 feature_text: |
-  About Me
+  SJU3358
 feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
+excerpt: ""
 aside: true
 ---
 
