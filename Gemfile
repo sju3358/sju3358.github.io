@@ -1,3 +1,11 @@
 source "https://rubygems.org"
 
-gemspec
+gem "jekyll-sitemap"
+gem "jekyll-mentions"
+gem "jekyll-seo-tag"
+gem "jekyll-paginate"
+gem "jekyll-redirect-from"
+gem "jekyll-feed"
+gem "jekyll-include-cache"
+gem "jekyll-commonmark"
+gem "jemoji"

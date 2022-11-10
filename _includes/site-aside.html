@@ -7,19 +7,13 @@
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
     <section class="section  section--description">
-      <h3>SJU3358</h3>
-      <br/>
       <img src="/assets/myprofile.jpeg" />
       <br/>
-      <h4>TMI</h4>
-      <hr />
-      <h6>INT P/J</h6>
-      <h6>게으름</h6>
-      <h6>하지만 천재</h6>
-      <h6>아무튼 천재</h6>
-      <h6>테니스 천재</h6>
-      <p>{{ site.description }}</p>
+      <h4>CONTACT</h4>
+      <hr>
       {% include nav-social.html %}
+      <br/>
+      <p>{{ site.description }}</p>
     </section>
 
   {% elsif page.layout == "categories" %}

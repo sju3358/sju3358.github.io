@@ -6,6 +6,70 @@ excerpt: ""
 aside: true
 ---
 
+
+
+
+{::nomarkdown}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+  
+$(function() {
+    var string = ["INTP/J","코딩천재","테니스천재","아무튼천재"];
+    var i = 1;
+    var cnt = 0;
+    
+    fadein = function () {
+        $('#intro').fadeOut("slow");
+        flag = false;
+    };
+    
+    fadeout = function(){
+        $('#intro').fadeIn("slow");
+        flag = true;
+    };
+
+    blink = function(){
+        if(cnt === 0)
+            fadein();
+        else if(cnt == 1){
+            $('#intro').text(string[i++]);
+            i = i%4;
+        }
+        else
+            fadeout();
+
+        cnt = (cnt+1)%3;
+    }
+    
+    setInterval(blink,1000);
+    
+});
+</script>
+<center>
+  <style>
+   .parent{
+    font-size: 2em;
+    margin: 0.67em 0;
+    width: 90%;
+}
+.first {
+    float: left;
+    margin-left: 5%;
+    width:30%;
+}
+.second{
+    float: left;
+    width: auto;
+}
+  </style>
+  <div class="parent">
+    <div class="first">SJU335 is </div>
+    <div id="intro" class="second">INTP/J</div>
+  </div>
+</center>
+{:/}
+
+
 <br/>
 <br/>
 
