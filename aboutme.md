@@ -1,5 +1,5 @@
 ---
-title:
+title: About Me
 feature_text: |
 feature_image: "/assets/aboutme_banner.webp"
 excerpt: ""
