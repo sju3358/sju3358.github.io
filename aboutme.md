@@ -1,5 +1,5 @@
 ---
-title: SJU3358
+title:
 feature_text: |
 feature_image: "/assets/aboutme_banner.webp"
 excerpt: ""
