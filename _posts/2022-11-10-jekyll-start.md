@@ -1,6 +1,6 @@
 ---
 title: "jekyll로 블로그 만들기 #1"
-excerpt: "Host Blog with Jekyll & Github Pages"
+excerpt: "Hosting Blog with Jekyll & Github Pages"
 categories:
 - jekyll
 ---
