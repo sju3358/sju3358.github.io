@@ -6,8 +6,7 @@ excerpt: ""
 aside: true
 ---
 
-INTRO  
-==============
+
 
 {::nomarkdown}
 <style>
