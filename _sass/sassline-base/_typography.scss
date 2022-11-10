@@ -305,7 +305,7 @@ a {
 
   // Horizontal rule.
   hr {
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 50%,$captionColour 50%);
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0) 75%,$captionColour 50%);
     background-position: 0 15%;
     background-size: 100% 0.1rem;
     background-repeat: repeat-x;
