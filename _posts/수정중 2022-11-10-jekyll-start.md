@@ -1,12 +1,13 @@
 ---
 title: "jekyll로 블로그 만들기"
+excerpt: ""
 categories:
 - jekyll
 ---
 
 ### jekyll
 -----------
-jeckyll과 github pages를 이용하면 쉽게 자신의 홈페이지를 팔 수 있다.  
+jekyll과 github pages를 이용하면 쉽게 자신의 홈페이지를 팔 수 있다.  
 물론 네이버블로그,velog,티스토리 등 훨씬 편한 블로그가 있지만  
 직접 JS,HTML,CSS를 조작해서 쉽게 커스텀이 가능하다는 장점이 있다.  
 ~~사실 그것보단 뭔가 이렇게 하면 찐개발자 같이 보여서 간지가 극대화 된다는것이 최대 장점~~
@@ -31,9 +32,11 @@ jekyll은 기본적인 레이아웃과 테마를 제공해줘서
 - <https://jekyll-themes.com/>
 <br/>
 <br/>
-본인은 https://jekyllthemes.io/theme/alembic 테마를 사용했다.
+본인은 https://jekyllthemes.io/theme/alembic 테마를 사용했다. 
+<br/>
+<br/>
 
-{% include figure.html image="./image/2022-11-10/jeckll-theme-selection.png" caption="Image with caption" width="300" height="800"%}
+![Screenshot](/assets/resources/image/2022-11-10/jeckll-theme-selection.png)  
 
 
 

@@ -10,6 +10,8 @@ layout: default
 
     <article class="article  article--page  typeset">
 
+      <h1>최근 포스트</h1>
+
       {% if paginator.posts %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>

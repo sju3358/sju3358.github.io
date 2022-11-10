@@ -1,5 +1,6 @@
 ---
 title: "내일배움캠프 TIL #9"
+excerpt: ""
 categories:
 - SpartaCodingClub
 ---
@@ -11,5 +12,11 @@ categories:
 내일은 홈화면을 꾸미고  
 본격적으로 포스팅을 할 예정이다.  
 
-
+{% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
 

@@ -2,7 +2,7 @@
   <section class="section  typeset">
     <ul class="list  list--posts">
       {% for page in paginator.posts %}
-        <li class="item  item--post">
+        <li class="item  item--post hoverable">
           <article class="article  article--post">
 
             <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
@@ -19,7 +19,7 @@
   <section class="section  typeset">
     <ul class="list  list--posts">
       {% for page in site.posts %}
-        <li class="item  item--post">
+        <li class="item  item--post hoverable">
           <article class="article  article--post">
 
             <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>

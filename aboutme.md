@@ -1,8 +1,7 @@
 ---
 title: About Me
-feature_text: |
-feature_image: "/assets/aboutme_banner.webp"
-excerpt: ""
+feature_image: "/assets/resources/image/aboutme_banner.webp"
+feature_text:
 aside: true
 ---
 
