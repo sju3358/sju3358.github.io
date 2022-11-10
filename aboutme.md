@@ -58,8 +58,9 @@ $(function() {
     width:30%;
 }
 .second{
-    float: left;
-    width: auto;
+  margin-left: 2%;
+  float: left;
+  width: auto;
 }
   </style>
   <div class="parent">
@@ -89,4 +90,7 @@ $(function() {
 충남대학교 수학과 복수전공  
 세트렉아이 백마인턴십 인공위성 소프트웨어 개발 2020.07 - 2020.08  
 포씨게이트 병원 순번 키오스크 소프트웨어 개발 2021.02 - 2022.03  
+
+<br/>
+<br/>
 
