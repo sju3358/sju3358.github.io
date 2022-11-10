@@ -6,7 +6,8 @@ excerpt: ""
 aside: true
 ---
 
-# Who am I?  
+#### Who am I  
+-------------
 
 
 {::nomarkdown}
@@ -89,11 +90,15 @@ aside: true
                 $("#text_hided").fadeOut("slow");
             });
         }); 
+    
     </script>
 </div>
   
   
 {:/}
+
+##### ~~지구를 정복할 예정~~
+
 
 <br/>
 
@@ -108,5 +113,5 @@ and more..
 
 <br/>
 
-Recent
-==============
+#### Recent  
+-------------
