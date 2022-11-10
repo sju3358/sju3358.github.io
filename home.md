@@ -62,7 +62,7 @@ INTRO
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js" type="text/javascript"></script>
     <script>
-        let blink = document.getElementById("text_event");
+        let blink = document.getElementById("text_hided");
         let string_sample = ["(가 되고싶은...)","(가 될꺼임!!)","(아무튼 된다!!!)","(나 조성락)","(한다면 하는남자)","(아무도 막을수 없다!)"];
         let i = 0;
 
