@@ -1,6 +1,6 @@
 ---
 title: "내일배움캠프 TIL #9"
-excerpt: ""
+excerpt: "스파르타코딩클럽 X 고용노동부"
 categories:
 - SpartaCodingClub
 ---
