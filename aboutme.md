@@ -1,5 +1,6 @@
 ---
 title: About Me
+layout: page
 feature_image: "/assets/resources/image/aboutme_banner.webp"
 feature_text:
 aside: true
@@ -9,6 +10,8 @@ aside: true
 
 
 {::nomarkdown}
+</br>
+</br>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
   
