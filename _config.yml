@@ -150,4 +150,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css?family=NanumBarunGothic
+    - https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css
