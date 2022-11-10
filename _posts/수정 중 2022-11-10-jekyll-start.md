@@ -16,11 +16,24 @@ jeckyll과 github pages를 이용하면 쉽게 자신의 홈페이지를 팔 수
 jekyll은 기본적인 레이아웃과 테마를 제공해줘서 
 미적감각이 없는 나에게 이보다 편한 도구가 없었기 때문에 jekyll을 선택하게 되었다.  
 
+<br/>
+<br/>
 
-### 
+### 테마정하기
 ------------
 기본적인 설명은 모두 https://jekyllrb.com/ 공식홈페이지에 나와있다.
 먼저 테마를 골라야하는데 아래와 같은 사이트에서 고를 수 있다.
+
+- <https://github.com/topics/jekyll-theme>  
+- <https://jamstackthemes.dev/ssg/jekyll/>  
+- <http://jekyllthemes.org/>  
+- <https://jekyllthemes.io/>  
+- <https://jekyll-themes.com/>
+<br/>
+<br/>
+본인은 https://jekyllthemes.io/theme/alembic 테마를 사용했다.
+
+{% include figure.html image="./image/2022-11-10/jeckll-theme-selection.png" caption="Image with caption" width="300" height="800"%}
 
 
 
