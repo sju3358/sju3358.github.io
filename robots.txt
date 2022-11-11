@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sju3358.github.io/sitemap.xml
+Disallow: /private/
+Sitemap: http://sju3358.github.io/sitemap.xml
