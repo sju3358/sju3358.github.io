@@ -3,6 +3,7 @@ title: "jekyll로 블로그 만들기 #2"
 excerpt: "Hosting Blog with Jekyll & Github Pages"
 categories:
 - jekyll
+sitemap : true
 ---
 
 ### 기본설정
