@@ -10,4 +10,4 @@ categories:
 [할꺼]
 ### 구글노출시키기
 ### 댓글기능 만들기
-utterances 이용
+utterances vs giscus 이용

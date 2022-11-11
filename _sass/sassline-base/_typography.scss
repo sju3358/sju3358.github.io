@@ -96,93 +96,42 @@ a {
     @include sassline(zeta, $headingtype, 2, 0, all);
   }
 
-  // Lists.
-  ul, ol {
-    @include baseline(zeta, $bodytype, 2, 2, all);
+   
 
+  
+  // Lists.
+  ul{
+    @include baseline(zeta, $bodytype, 2, 2, all);
+    margin-right: 1rem;
+    
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
-      margin-left: 2rem;
-
+      padding-left: 0.5rem;
       @include breakpoint(break-1) {
-        margin-left: 0;
+        margin-left: 1rem;
       }
 
       ol, ul {
-        padding-top: 1rem;
         margin-bottom: 1rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
       }
     }
   }
 
+
+  
   // Ordered lists.
   ol {
-    list-style-type: none;
-
+    @include baseline(zeta, $bodytype, 2, 2, all);
+    margin-right: 1rem;
     li {
-      counter-increment: top-level;
-
-      &:before {
-        content: counter(top-level) '.';
-        font-feature-settings: 'lnum', 'tnum';
-        margin-left: -3rem;
-        position: absolute;
-        text-align: right;
-        width: 2em;
+      padding-left: 0.5rem;  
+      @include breakpoint(break-1) {
+        margin-left: 1rem;
       }
-
-      ul {
-
-        li {
-
-          &:before {
-            content: '';
-          }
-
-          ol {
-
-            li {
-              counter-increment: alt-level;
-
-              &:before {
-                content: counter(alt-level) '.';
-              }
-            }
-          }
-        }
-      }
-
-      ol {
-
-        li {
-          counter-increment: sub-level;
-
-          &:before {
-            content: counter(top-level) '.' counter(sub-level);
-          }
-
-          ul {
-
-            li {
-
-              &:before {
-                content: '';
-              }
-            }
-          }
-
-          ol {
-
-            li {
-              counter-increment: sub-sub-level;
-
-              &:before {
-                content: counter(top-level) '.' counter(sub-level) '.' counter(sub-sub-level);
-              }
-            }
-          }
-        }
+      ol, ul {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
       }
     }
   }
@@ -272,7 +221,9 @@ a {
     p {
       border-left: 0.15rem solid $linkColour;
       font-style: map-get($bodytype, italic);
+      color: #777777;
       padding-left: 1rem;
+      background-color: #f1f1f1;
 
       // Add spacing below blockquote paragraphs to align to baseline grid.
       $get-scale: map-get($modular-scale, scale-0);
@@ -299,7 +250,7 @@ a {
     }
 
     @include breakpoint(break-1) {
-      margin-left: -1rem;
+      margin-left: 0rem;
     }
   }
 
