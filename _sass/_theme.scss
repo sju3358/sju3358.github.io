@@ -73,6 +73,8 @@ body {
 .nav {
   a {
     padding: .2rem;
+    
+    
   }
   &--social a {
     display: inline-block;
@@ -90,6 +92,7 @@ body {
   background: $headingColour;
   color: $captionColour;
   a {
+    
     color: $captionColour;
     &:hover {
       color: $backgroundColour;
@@ -206,6 +209,7 @@ body {
   }
   &--current {
     a {
+      
       color: $captionColour;
     }
   }
