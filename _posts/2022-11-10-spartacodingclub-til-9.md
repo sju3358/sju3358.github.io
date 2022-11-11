@@ -3,6 +3,7 @@ title: "내일배움캠프 TIL #9"
 excerpt: "스파르타코딩클럽 X 고용노동부"
 categories:
 - SpartaCodingClub
+sitemap: true
 ---
 
 오늘은 jeckyll을 이용해서 블로그를 파보았다.  

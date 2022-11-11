@@ -4,6 +4,7 @@ layout: page
 feature_image: "/assets/resources/image/aboutme_banner.webp"
 feature_text:
 aside: true
+sitemap: true;
 ---
 
 
