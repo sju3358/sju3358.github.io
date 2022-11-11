@@ -96,7 +96,7 @@ lang: en-GB # Set the site language
 title: "SJU3358" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "" # Site description and default description, also used in jekyll-seo-tag
-url: "sju3358.github.io" # Site url, also used in jekyll-seo-tag
+url: "https://sju3358.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
 email: "tjdfkr011@gmail.com"
