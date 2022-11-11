@@ -29,14 +29,23 @@
   function displayResults() {
     const resultsArray = findResults(this.value, pages);
     const html = resultsArray.map(item => {
-      return `
-        <li class="item  item--result">
-          <article class="article  typeset">
-            <h4><a href="${item.url}">${item.title}</a></h4>
-            <p>${item.excerpt}</p>
-          </article>
-        </li>`;
+      if(item.title != "404" && item.title != "Search" && item.title != "About Me"){
+      //   return '';
+      // if()
+      //   return '';
+      // if()
+      //   return '';
+
+        return `
+          <li class="item  item--result">
+            <article class="article  typeset">
+              <h4><a href="${item.url}">${item.title}</a></h4>
+              <p>${item.excerpt}</p>
+            </article>
+          </li>`;
+      }
     }).join('');
+
     if ((resultsArray.length == 0) || (this.value == '')) {
       resultsList.innerHTML = `<p>Sorry, nothing was found</p>`;
     } else {
