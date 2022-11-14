@@ -54,23 +54,23 @@ $(function() {
   <style>
    .parent{
     font-size: 2em;
-    margin: 0.67em 0;
-    width: 90%;
-}
-.first {
-    float: left;
-    margin-left: 5%;
-    width:30%;
+    /* margin: 0.67em 0; */
+    /* width: 90%; */
 }
 .second{
-  margin-left: 2%;
-  float: left;
-  width: auto;
+  /* margin-left: 2%; */
+  /* float: RIGHT; */
+  /* width: auto; */
 }
   </style>
+
+  
+
   <div class="parent">
-    <div class="first">SJU335 is </div>
-    <div id="intro" class="second">INTP/J</div>
+    <h2>SJU3358 is <span id="intro" class="second" style="color:#a50509">INTP/J</span></h2>
+    
+    <!-- <div class="first">SJU3358 is </div> -->
+    <!-- <div id="intro" class="second">INTP/J</div> -->
   </div>
 </center>
 {:/}
