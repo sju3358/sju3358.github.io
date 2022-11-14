@@ -123,7 +123,7 @@ $(function() {
     <script src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js" type="text/javascript"></script> 
     <script>
         let hover = document.getElementById("text_event");
-        let string_sample = ["(가 되고싶은...)","(가 될꺼임!!)","(아무튼 된다!!!)","(나 조성락)","(한다면 하는남자)","(아무도 못막음!!)","(돌진!!!!!!)"];
+        let string_sample = ["(가 되고싶은...)","(가 될꺼임!!)","(아무튼 된다!!!)","(나 조성락)","(한다면 하는남자)","(아무도 못막음!!)","(돌진!!!!!!)",""];
         let i = 0;
         $(function() {
             hover.addEventListener("click", function(){
@@ -132,7 +132,7 @@ $(function() {
                 
                 let cur_string = string_sample[i++];
                 console.log(cur_string);
-                i = i % 7;
+                i = i % 8;
                 $("#text_hided").show();
 
                 $("#text_hided").typed({
