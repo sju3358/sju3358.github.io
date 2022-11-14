@@ -143,6 +143,24 @@ $(function() {
 
             },false);
 
+
+            hover.addEventListener("touchstart", function(){
+                
+                console.log("mouse over");
+                
+                let cur_string = string_sample[i++];
+                console.log(cur_string);
+                i = i % 7;
+                $("#text_hided").show();
+
+                $("#text_hided").typed({
+                    strings : [cur_string,],
+                    typeSpeed: 0,
+                    fadeOut : true,
+                });
+
+            },false);
+
             hover.addEventListener("mouseleave", function(){
                 
                 console.log("mouse leave");
