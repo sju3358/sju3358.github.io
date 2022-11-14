@@ -126,7 +126,7 @@ $(function() {
         let string_sample = ["(가 되고싶은...)","(가 될꺼임!!)","(아무튼 된다!!!)","(나 조성락)","(한다면 하는남자)","(아무도 못막음!!)","(돌진!!!!!!)"];
         let i = 0;
         $(function() {
-            hover.addEventListener("mouseenter", function(){
+            hover.addEventListener("click", function(){
                 
                 console.log("mouse over");
                 
@@ -160,20 +160,6 @@ $(function() {
                 });
 
             },false);
-
-            hover.addEventListener("mouseleave", function(){
-                
-                console.log("mouse leave");
-
-                $("#text_hided").fadeOut("slow");
-            });
-
-            hover.addEventListener("touchend", function(){
-                
-                console.log("mouse leave");
-
-                $("#text_hided").fadeOut("slow");
-            });
         }); 
     
     </script>
