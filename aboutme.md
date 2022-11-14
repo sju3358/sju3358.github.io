@@ -169,7 +169,6 @@ Projects
 Algorhitm  
 Computer Science  
 스파르타코딩클럽 내일배움캠프  
-and more..  
 
 
 
