@@ -167,6 +167,13 @@ $(function() {
 
                 $("#text_hided").fadeOut("slow");
             });
+
+            hover.addEventListener("touchend", function(){
+                
+                console.log("mouse leave");
+
+                $("#text_hided").fadeOut("slow");
+            });
         }); 
     
     </script>
