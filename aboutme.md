@@ -87,6 +87,8 @@ $(function() {
     /*Add custom cursor so it auto inherits font styles*/
     .aaa {
         font-size: 1em;
+        /* pointer-events : none; */
+
     }
     .typed::after {
     color:#404040;
