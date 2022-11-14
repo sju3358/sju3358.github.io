@@ -179,7 +179,7 @@ $(function() {
 -------------
 Back-End  
 Projects  
-Algorhitm  
+Algorithm  
 Computer Science  
 스파르타코딩클럽 내일배움캠프  
 
