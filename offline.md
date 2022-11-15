@@ -4,13 +4,9 @@ indexing: false
 sitemap: false
 ---
 
-<center>
-<h4 style="color:red">
-It appears that you've lost your network connection <br/>
-or this document doesn't exist on your device. <br/>
-</h4>
+<h1 style="color:red">OFFLINE</h1>
+----------
 
-<br/>
-<br/>
-<img src="/assets/resources/error.png/" alt="error">
-</center>
+It appears that you've lost your network connection and this document doesn't exist on your device.
+
+Try either returning to the previous page, using the navigation to find your way back, or restore your network connection.
