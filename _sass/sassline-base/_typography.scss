@@ -223,6 +223,7 @@ a {
     p {
       border-left: 0.15rem solid $linkColour;
       font-style: map-get($bodytype, italic);
+      font-size: 1rem;
       color: #777777;
       padding-left: 1rem;
       background-color: #f1f1f1;
